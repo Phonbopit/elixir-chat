@@ -3,6 +3,7 @@ defmodule ElixirChat.UserSocket do
 
   ## Channels
   # channel "room:*", ElixirChat.RoomChannel
+  channel "lobby", ElixirChat.LobbyChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
